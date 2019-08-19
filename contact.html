@@ -33,7 +33,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
         <form>
             <label for="doctorSelect">Sélectionnez votre correspondant:</label>
@@ -43,10 +43,13 @@
                     <option value="doctorSelect">Dr. Diane LAGACÉS</option>
             </select>
             <br>
-            <label for="userName">Entrez votre nom:</label>
+            <label for="userName">Nom</label>
+            <br>
             <input type="text" name="userName" id="userName" placeholder="NOM Prénom" required>
-            <br><br>
-            <label for="messageArea">Entrez votre message:</label><br>
+            <br>
+            <label for="userEMail">E-mail</label>
+            <input type="text" autocorrect="off" autocapitalize="off" required placeholder="E-mail">
+            <label for="messageArea">Message</label><br>
             <textarea name="messageArea" id="messageArea" cols="50" rows="20" placeholder="Votre message..." required></textarea>
 
 
