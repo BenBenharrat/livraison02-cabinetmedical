@@ -4,21 +4,3 @@ MOBILE STYLE
 
 /* INDEX PAGE */
 
-body{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 10rem auto;
-
-}
-
-.indexHeader{
-    grid-area: header;
-}
-
-.indexMain{
-    grid-area: main;
-}
-
-.indexFooter{
-    grid-area: footer;
-}
