@@ -59,8 +59,12 @@ table {
 /* CSS RESET DONE 
 ===================================================
 */
-p {
-  font-family: "Noticia Text", serif;
+/* ====================================
+MOBILE STYLE
+==================================== */
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 /*# sourceMappingURL=styles.css.map */
