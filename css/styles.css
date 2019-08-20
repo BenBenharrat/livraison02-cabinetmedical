@@ -63,6 +63,11 @@ html {
   font-size: 10px;
 }
 
+nav {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
