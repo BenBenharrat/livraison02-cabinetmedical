@@ -59,5 +59,8 @@ table {
 /* CSS RESET DONE 
 ===================================================
 */
+p {
+  font-family: "Noticia Text", serif;
+}
 
 /*# sourceMappingURL=styles.css.map */
