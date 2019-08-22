@@ -59,6 +59,9 @@ table {
 /* CSS RESET DONE 
 ===================================================
 */
+/* ======================
+GENERAL FONT RULES
+====================== */
 html {
   font-size: 10px;
 }
@@ -81,37 +84,6 @@ h1, h2 {
 /* ====================================
 MOBILE STYLE
 ==================================== */
-/* INDEX PAGE */
-.indexHeader {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(0rem, auto);
-  grid-gap: 0.5rem;
-  max-width: 96rem;
-  margin: 0 auto;
-  grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "footer footer footer footer";
-}
-
-header {
-  display: grid;
-  grid-area: header;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(10rem, auto);
-  grid-gap: 1rem;
-  max-width: 96rem;
-  margin: 0 auto;
-}
-
-.indexNav {
-  grid-area: nav;
-}
-
-.indexMain {
-  grid-area: main;
-}
-
-.indexFooter {
-  grid-area: footer;
-}
+/* GENERAL RULES */
 
 /*# sourceMappingURL=styles.css.map */
